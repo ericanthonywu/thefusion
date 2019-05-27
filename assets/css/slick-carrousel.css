@@ -1,0 +1,27 @@
+.slider {
+    width: 100%;
+}
+.slick-slide{
+    text-decoration: none;
+    height: unset;
+}
+.slick-prev{
+
+}
+.center{
+    margin-top: 50px;
+}
+.slick-slide:focus {
+    border: transparent;
+}
+
+.slick-slide img {
+    width: 100%;
+    transition: .5s;
+    transform: scale(0.7);
+    border-radius: 40px;
+}
+.slick-center img{
+    transition: .5s;
+    transform: scale(0.9);
+}
