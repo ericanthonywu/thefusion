@@ -23,7 +23,7 @@
     line-height: 0;
 
     position: absolute;
-    top: 50%;
+    top: 55%;
 
     display: block;
 
@@ -84,10 +84,10 @@
 
 .slick-prev
 {
-    left: -25px;
+    /*left: -40px;*/
     background-image: url("../images/left.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 40%;
 }
 [dir='rtl'] .slick-prev
 {
@@ -97,10 +97,10 @@
 
 .slick-next
 {
-    right: -25px;
+    right: -40px;
     background-image: url("../images/right.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 40%;
 }
 [dir='rtl'] .slick-next
 {
